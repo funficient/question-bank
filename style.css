@@ -120,18 +120,19 @@ i {
 .button {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #f5c325;
+  background-color: #6DB9C2;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 5px;
   margin-top: 25px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-  transition: all ease-in-out 0.02s;
+  transition: all ease-in-out 0.05s;
 }
 
 .button:hover {
   transform: scale(0.98);
+  background-color: #007982;
 }
 
 /*.button::before {
@@ -167,7 +168,7 @@ text-rendering: auto;
   /*background: #333 url(assets/zara.jpg) no-repeat center center/cover;*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 .image-container img {
@@ -175,7 +176,7 @@ text-rendering: auto;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   object-fit: cover;
   
   
@@ -183,10 +184,10 @@ text-rendering: auto;
 
 .card {
   z-index: 10;
-  background-color: rgba(51, 51, 51, 0.6);
+  background-color: rgba(226, 226, 226, 0.4);
   backdrop-filter: blur(5px);
   padding: 2rem;
-  color: #fcfcfc;
+  color: #333;
   width: min(90vw, 600px); 
 }
 
@@ -196,18 +197,20 @@ text-rendering: auto;
   right: 0;
   top: 40%;
   overflow: none;
+  z-index: 11;
 }
 
 .sticky i {
   display: flex;
   flex-direction: row;
-  background-color: rgb(245, 195, 37, 1);
-  padding: 1.2rem;
-  font-size: 1.7rem;
+  background-color: #6DB9C2;
+  padding: 1rem;
+  font-size: 1.8rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 
 }
 .line {
-  background-color: rgb(51, 51, 51, 0.6);
+  background-color: rgb(51, 51, 51, 0.5);
   height: 2px;
 }
 
