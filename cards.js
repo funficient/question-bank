@@ -33,5 +33,5 @@ document.getElementById("shuffle").onclick = function(){
     var currentCard = deck[index];
 
    
-    document.getElementById("display").innerHTML = '<h3>' + currentCard.type + '</h3><h2>' + currentCard.title + '</h2><p>' + currentCard.description + '</p>';
+    document.getElementById("display").innerHTML = '<h3>' + currentCard.type + '</h3><h2>' + currentCard.title + '</h2>';
 };
